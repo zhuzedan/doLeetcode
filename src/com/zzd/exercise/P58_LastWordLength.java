@@ -14,7 +14,7 @@ public class P58_LastWordLength {
     class Solution {
         public int lengthOfLastWord(String s) {
             char count = 0;
-            for (int i = s.length()-1; i >0; i--) {
+            for (int i = s.length()-1; i >=0; i--) {
                 if(s.charAt(i) == ' '){
                     if(count == 0) {continue;}
                     break;
