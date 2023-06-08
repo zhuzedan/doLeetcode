@@ -16,3 +16,4 @@ logs
 .vscode/
 *.sw*
 out
+/.idea
